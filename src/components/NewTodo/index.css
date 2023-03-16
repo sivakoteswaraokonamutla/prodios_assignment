@@ -1,0 +1,36 @@
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 20px;
+}
+.delete-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  background-color: red;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 150px;
+}
+.list-item {
+  list-style-type: none;
+}
+.todo-name {
+  font-family: Roboto;
+  font-size: large;
+}
+.update-input {
+  height: 25px;
+  width: 25px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
